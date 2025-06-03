@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "name": "Cotton Baby Romper",
+    "category": "Boy",
+    "price": 10.00,
+    "currency": "USD",
+    "image": "pro1.jpg",
+    "description": "Soft cotton romper with cute rocket print",
+    "in_stock": true,
+    "type": "Latest_Arrivals",
+    "color": "#FFC0CB",
+    "actualPrice": 20.00,
+    "sliderImage": [
+      "pro1@2x.jpg",
+      "pro1@2x.jpg",
+      "pro1@2x.jpg",
+      "pro1@2x.jpg"
+    ],
+    "slider": [
+      "pro1.jpg",
+      "pro1.jpg",
+      "pro1.jpg",
+      "pro1.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "PureFlow Baby Bottle",
+    "category": "Equipments",
+    "price": 20.00,
+    "currency": "USD",
+    "image": "pro2.jpg",
+    "description": "Colorful baby bottle with pacifier included",
+    "in_stock": true,
+    "type": "Latest_Arrivals",
+    "color": "#FF6347",
+    "actualPrice": 30.00,
+    "sliderImage": [
+      "pro2@2x.jpg",
+      "pro2@2x.jpg",
+      "pro2@2x.jpg",
+      "pro2@2x.jpg"
+    ],
+    "slider": [
+      "pro2.jpg",
+      "pro2.jpg",
+      "pro2.jpg",
+      "pro2.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Beach Toys Loader",
+    "category": "Toy & Books",
+    "price": 10.00,
+    "currency": "USD",
+    "image": "pro3.jpg",
+    "description": "Toy loader with a bear character, perfect for beach play",
+    "in_stock": true,
+    "type": "Latest_Arrivals",
+    "color": "#FFFF00",
+    "actualPrice": 20.00,
+    "sliderImage": [
+      "pro3@2x.jpg",
+      "pro3@2x.jpg",
+      "pro3@2x.jpg",
+      "pro3@2x.jpg"
+    ],
+    "slider": [
+      "pro3.jpg",
+      "pro3.jpg",
+      "pro3.jpg",
+      "pro3.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Comfort Infant Carrier",
+    "category": "Equipments",
+    "price": 20.00,
+    "currency": "USD",
+    "image": "pro4.jpg",
+    "description": "Comfortable and secure infant car seat/carrier",
+    "in_stock": true,
+    "type": "Latest_Arrivals",
+    "color": "#000000",
+    "actualPrice": 40.00,
+    "sliderImage": [
+      "pro4@2x.jpg",
+      "pro4@2x.jpg",
+      "pro4@2x.jpg",
+      "pro4@2x.jpg"
+    ],
+    "slider": [
+      "pro4.jpg",
+      "pro4.jpg",
+      "pro4.jpg",
+      "pro4.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Closure Casual Shoes",
+    "category": "Boy",
+    "price": 9.00,
+    "currency": "USD",
+    "image": "pro5.png",
+    "description": "Comfortable Closure Casual Shoes",
+    "in_stock": true,
+    "type": "Best_Seller",
+    "color": "#000000",
+    "actualPrice": 20.00,
+    "sliderImage": [
+      "pro5@2x.png",
+      "pro5@2x.png",
+      "pro5@2x.png",
+      "pro5@2x.png"
+    ],
+    "slider": [
+      "pro5.png",
+      "pro5.png",
+      "pro5.png",
+      "pro5.png"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Sleeveless Dress",
+    "category": "Girl",
+    "price": 10.00,
+    "currency": "USD",
+    "image": "pro6.png",
+    "description": "Comfortable Sleeveless Dress",
+    "in_stock": true,
+    "type": "Best_Seller",
+    "color": "#FFC0CB",
+    "actualPrice": 20.00,
+    "sliderImage": [
+      "pro6@2x.png",
+      "pro6@2x.png",
+      "pro6@2x.png",
+      "pro6@2x.png"
+    ],
+    "slider": [
+      "pro6.png",
+      "pro6.png",
+      "pro6.png",
+      "pro6.png"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Alpha Kick Scooter",
+    "category": "Baby",
+    "price": 70.00,
+    "currency": "USD",
+    "image": "pro7.png",
+    "description": "Comfortable and secure Alpha Kick Scooter",
+    "in_stock": true,
+    "type": "Best_Seller",
+    "color": "#FF0000",
+    "actualPrice": 90.00,
+    "sliderImage": [
+      "pro7@2x.png",
+      "pro7@2x.png",
+      "pro7@2x.png",
+      "pro7@2x.png"
+    ],
+    "slider": [
+      "pro7.png",
+      "pro7.png",
+      "pro7.png",
+      "pro7.png"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Baby soft toys",
+    "category": "Toy & Books",
+    "price": 20.00,
+    "currency": "USD",
+    "image": "pro8.png",
+    "description": "Comfortable and soft Baby soft toys",
+    "in_stock": true,
+    "type": "Best_Seller",
+    "color": "#FFC0CB",
+    "actualPrice": 35.00,
+    "sliderImage": [
+      "pro8@2x.png",
+      "pro8@2x.png",
+      "pro8@2x.png",
+      "pro8@2x.png"
+    ],
+    "slider": [
+      "pro8.png",
+      "pro8.png",
+      "pro8.png",
+      "pro8.png"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "ABC Learning Cubes",
+    "category": "Toy & Books",
+    "price": 10.00,
+    "currency": "USD",
+    "image": "pro9.jpg",
+    "description": "Learning Cubes for mental growth",
+    "in_stock": true,
+    "type": "Special_Product",
+    "color": "#808080",
+    "actualPrice": 20.00,
+    "sliderImage": [
+      "pro9@2x.jpg",
+      "pro9@2x.jpg",
+      "pro9@2x.jpg",
+      "pro9@2x.jpg"
+    ],
+    "slider": [
+      "pro9.jpg",
+      "pro9.jpg",
+      "pro9.jpg",
+      "pro9.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Animal Friends Set",
+    "category": "Soft Toys",
+    "price": 20.00,
+    "currency": "USD",
+    "image": "pro10.jpg",
+    "description": "Soft Toys for play time",
+    "in_stock": true,
+    "type": "Special_Product",
+    "color": "#FFA500",
+    "actualPrice": 30.00,
+    "sliderImage": [
+      "pro10@2x.jpg",
+      "pro10@2x.jpg",
+      "pro10@2x.jpg",
+      "pro10@2x.jpg"
+    ],
+    "slider": [
+      "pro10.jpg",
+      "pro10.jpg",
+      "pro10.jpg",
+      "pro10.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Sleeveless Floral Dress",
+    "category": "Girl",
+    "price": 100.00,
+    "currency": "USD",
+    "image": "pro11.png",
+    "description": "Girl Dress",
+    "in_stock": true,
+    "type": "Related_Product",
+    "color": "#000080",
+    "actualPrice": 120.00,
+    "sliderImage": [
+      "pro11.png",
+      "pro11.png",
+      "pro11.png",
+      "pro11.png"
+    ],
+    "slider": [
+      "pro11.png",
+      "pro11.png",
+      "pro11.png",
+      "pro11.png"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Sleeveless White Dress",
+    "category": "Girl",
+    "price": 100.00,
+    "currency": "USD",
+    "image": "pro12.png",
+    "description": "Girl Dress",
+    "in_stock": true,
+    "type": "Related_Product",
+    "color": "#FFA500",
+    "actualPrice": 150.00,
+    "sliderImage": [
+      "pro12.png",
+      "pro12.png",
+      "pro12.png",
+      "pro12.png"
+    ],
+    "slider": [
+      "pro12.png",
+      "pro12.png",
+      "pro12.png",
+      "pro12.png"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Sleeveless Floral Dress",
+    "category": "Girl",
+    "price": 100.00,
+    "currency": "USD",
+    "image": "pro13.png",
+    "description": "Girl Dress",
+    "in_stock": true,
+    "type": "Related_Product",
+    "color": "#000000",
+    "actualPrice": 160.00,
+    "sliderImage": [
+      "pro13.png",
+      "pro13.png",
+      "pro13.png",
+      "pro13.png"
+    ],
+    "slider": [
+      "pro13.png",
+      "pro13.png",
+      "pro13.png",
+      "pro13.png"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "PRINCESS Sleeveless",
+    "category": "Girl",
+    "price": 27.00,
+    "currency": "USD",
+    "image": "pro14.png",
+    "description": "Girl Dress",
+    "in_stock": true,
+    "type": "Related_Product",
+    "color": "#FF0000",
+    "actualPrice": 40.00,
+    "sliderImage": [
+      "mainSlide1.png",
+      "mainSlide1.png",
+      "mainSlide1.png",
+      "mainSlide1.png"
+    ],
+    "slider": [
+      "thumb1.png",
+      "thumb2.png",
+      "thumb3.png",
+      "thumb4.png"
+    ]
+  }
+]

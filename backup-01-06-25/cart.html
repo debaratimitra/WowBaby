@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no">
+      <meta property="og:title" content="WowBaby" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="" />
+      <meta property="og:image" content="<?= $path['images']; ?>/thumb.png">
+      <!-- favicon -->
+      <link rel="icon" type="image/x-icon" href="images/favicon.png">
+      <!-- Bootstrap CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!--icon css -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+      <!-- Google font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Comfortaa:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <!-- Custom CSS -->
+      <link href="css/slick.css" rel="stylesheet">
+      <link href="css/aos.css" rel="stylesheet">
+      <link href="css/custom.css" rel="stylesheet">
+      <link href="css/responsive.css" rel="stylesheet">
+      <title>WowBaby</title>
+   </head>
+   <body>
+      <!-- header start -->
+      <header class="headerWrapper">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-3 col-6 align-content-center">
+                  <div class="logo" data-aos="fade-right" data-aos-duration="400">
+                     <a href="index.html">
+                     <img src="images/logo.png" data-rjs="images/logo@2x.png" alt="logo">
+                     </a>
+                  </div>
+               </div>
+               <div class="col-sm-5 col-6 col-lg-6 align-content-center">
+                  <div class="searchBar">
+                     <input type="text" class="searchFld" placeholder="Search..." name="">
+                  </div>
+               </div>
+               <div class="col-sm-4 col-lg-3 align-content-center text-end">
+                  <div class="conInfo">
+                     <i>
+                     <img src="images/phone.png" alt="">
+                     </i>
+                     <div class="rightInfo">
+                        <span class="Qhead">Have a Questions?</span>
+                        <span class="callIn">
+                        Call?
+                        <a href="tel:0000000000">
+                        0000 000 000
+                        </a>
+                        </span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- header end -->
+      <!-- menubar start -->
+       <section class="subHead">
+      <div class="headBorder">
+        <div class="container">
+          <div class="barArea">
+            <a href="javascript:void(0);" class="menuClick"><i class="fa-solid fa-bars"></i></a>
+          </div>
+          <div class="overlayBody"></div>
+          <div class="row align-items-center">
+            <div class="col-5">
+              <ul>
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="shop.html">Shop</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);">Categories</a>
+                  <ul>
+                    <li><a href="shop.html">All Products</a></li>
+                    <li><a href="shop.html">Best Sellers</a></li>
+                    <li><a href="shop.html">Boy</a></li>
+                    <li><a href="shop.html">Girls</a></li>
+                    <li><a href="shop.html">Baby</a></li>
+                    <li><a href="shop.html">Soft Toys</a></li>
+                    <li><a href="shop.html">Equipments</a></li>
+                    <li><a href="shop.html">Toy & Books</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="about.html">About Us</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-2 offset-5">
+              <ul class="cartArea">
+                <li>
+                  <a href="wishlist.html">
+                    <i class="fa-regular fa-heart"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);">
+                    <span class="cartValue">01</span>
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="login.html">
+                    <i class="fa-regular fa-user"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- menubar end -->
+
+      <!-- breadcrumb area start -->
+
+      <section class="breadcrumb">
+        <div class="container">
+          <ul>
+            <li>
+              <a href="javascript:void(0);">Home</a>
+            </li>
+            <li>
+              <span> > </span>
+            </li>
+            <li>
+              Cart
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- breadcrumb area end -->
+
+      <!-- cart area start -->
+      <section class="checkoutInner">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-7 col-md-7 order-2 order-md-0">
+                  <div class="cartInner">
+                     <div class="cartTable" style="border-bottom: none;">
+                        <div class="cartHead">
+                           <div class="cartCell">Product</div>
+                           <div class="cartCell">PRICE</div>
+                           <div class="cartCell">QTY</div>
+                           <div class="cartCell">tOTAL</div>
+                        </div>
+                     </div>
+                     <div id="cartWrap"></div>
+                  </div>
+               </div>
+               <div class="col-lg-4 offset-lg-1 col-md-5 order-1 order-md-0">
+                  <div class="aplyCoupon d-flex">
+                     <input type="mail" class="fldBox" placeholder="Apply Promo Code" name="">
+                     <input type="submit" class="applyBtn" value="Apply" name="">
+                  </div>
+                  <div class="orderSum">
+                     <div class="sumTitle text-center">Order Summary</div>
+                     <div class="summaryTable">
+                        <div class="tableInner">
+                           <div class="tableRow">
+                              <div class="tableCell">Sub Total </div>
+                              <div class="tableCell text-end subTotal">$0.00</div>
+                           </div>
+                           <div class="tableRow">
+                              <div class="tableCell">Shipping</div>
+                              <div class="tableCell text-end">---</div>
+                           </div>
+                           <div class="tableRow">
+                              <div class="tableCell">Tax</div>
+                              <div class="tableCell text-end">$0.0</div>
+                           </div>
+                           <div class="tableRow">
+                              <div class="tableCell">Coupon Discount</div>
+                              <div class="tableCell text-end">$0.0</div>
+                           </div>
+                        </div>
+                        <div class="tableInner topGap">
+                           <div class="tableRow totalDiv">
+                              <div class="tableCell">Total (USD)</div>
+                              <div class="tableCell text-end subTotal">$0.00</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="gloBalBtn aos-init aos-animate" data-aos="fade-right" data-aos-duration="800">
+                     <a href="javascript:void(0);">PLACE YOUR ORDER</a>
+                  </div>
+                 </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- cart area end -->
+
+
+      <!-- footer start -->
+      <section class="footerWrap">
+         <div class="footerTop">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-7 col-md-5 col-sm-12">
+                     <h2>Sign Up To Our Newsletter</h2>
+                     <p>Sign up for our latest case studies </p>
+                  </div>
+                  <div class="col-lg-5 col-md-7 col-sm-12 text-end">
+                     <div class="newsSearch">
+                        <input type="text" class="newsFld" placeholder="Enter Your Email" name="">
+                        <input type="submit" class="subsBtn" value="Subscribe" name="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footerMidd">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-4">
+                     <div class="footLogo">
+                        <a href="index.html">
+                        <img src="images/footerLogo.png" data-rjs="images/footerLogo@2x.png" alt="">
+                        </a>
+                     </div>
+                     <p>Copyright 2025 wowBaby. All Rights Reserved.</p>
+                  </div>
+                  <div class="col-lg-3 offset-lg-1 col-sm-4">
+                     <h5>CONTACT INFO</h5>
+                     <ul class="addressD">
+                        <li class="d-flex">
+                           <i class="fa-solid fa-location-dot"></i>
+                           <span>13th Street 47 W 13th St, <br> New York, NY 10011, USA.</span>
+                        </li>
+                        <li class="d-flex">
+                           <i class="fa-solid fa-envelope"></i>
+                           <a href="javascript:void(0);">info@wowBaby.com</a>
+                        </li>
+                        <li class="d-flex">
+                           <i class="fa-solid fa-phone-volume"></i>
+                           <a href="javascript:void(0);">+1 000) 000-0000</a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="col-lg-3 offset-lg-1 col-sm-4 text-end">
+                     <div class="payCard">
+                        <img src="images/card.png" alt="">
+                     </div>
+                     <div class="socialArea">
+                        <ul class="d-flex justify-content-between align-content-center">
+                           <li data-aos="fade-left" data-aos-duration="200">
+                              <a href="javascript:void(0)">
+                              <i class="fa-brands fa-facebook-f"></i>
+                              </a>
+                           </li>
+                           <li data-aos="fade-left" data-aos-duration="400">
+                              <a href="javascript:void(0)">
+                              <i><img src="images/mdi_twitter.png" alt=""></i>
+                              </a>
+                           </li>
+                           <li data-aos="fade-left" data-aos-duration="600">
+                              <a href="javascript:void(0)">
+                              <i class="fa-brands fa-linkedin-in"></i>
+                              </a>
+                           </li>
+                           <li data-aos="fade-left" data-aos-duration="800">
+                              <a href="javascript:void(0)">
+                              <i class="fa-brands fa-youtube"></i>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footerBottom">
+            <ul class="text-center">
+               <li>
+                  <a href="javascript:void(0);">Privacy Policy</a>
+               </li>
+               <li>
+                  <a href="javascript:void(0);">Terms & Conditions</a>
+               </li>
+            </ul>
+         </div>
+      </section>
+      <!-- footer end -->
+      <!-- js -->
+      <script src="js/jquery-3.7.1.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/slick.min.js"></script>
+      <script src="js/aos.js"></script>
+      <script src="js/retina.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="js/cart.js"></script>
+   </body>
+</html>

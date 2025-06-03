@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Cotton Baby Romper",
+    "category": "Boy",
+    "price": 10.00,
+    "currency": "USD",
+    "image": "pro1.jpg",
+    "description": "Soft cotton romper with cute rocket print",
+    "in_stock": true,
+    "type": "Latest_Arrivals"
+  },
+  {
+    "id": 2,
+    "name": "PureFlow Baby Bottle",
+    "category": "Equipments",
+    "price": 20.00,
+    "currency": "USD",
+    "image": "pro2.jpg",
+    "description": "Colorful baby bottle with pacifier included",
+    "in_stock": true,
+    "type": "Latest_Arrivals"
+  },
+  {
+    "id": 3,
+    "name": "Beach Toys Loader",
+    "category": "Toy & Books",
+    "price": 10.00,
+    "currency": "USD",
+    "image": "pro3.jpg",
+    "description": "Toy loader with a bear character, perfect for beach play",
+    "in_stock": true,
+    "type": "Latest_Arrivals"
+  },
+  {
+    "id": 4,
+    "name": "Comfort Infant Carrier",
+    "category": "Equipments",
+    "price": 20.00,
+    "currency": "USD",
+    "image": "pro4.jpg",
+    "description": "Comfortable and secure infant car seat/carrier",
+    "in_stock": true,
+    "type": "Latest_Arrivals"
+  },
+  {
+    "id": 5,
+    "name": "Closure Casual Shoes",
+    "category": "Boy",
+    "price": 9.00,
+    "currency": "USD",
+    "image": "pro5.png",
+    "description": "Comfortable Closure Casual Shoes",
+    "in_stock": true,
+    "type": "Best_Seller"
+  },
+  {
+    "id": 6,
+    "name": "Sleeveless Dress",
+    "category": "Girl",
+    "price": 10.00,
+    "currency": "USD",
+    "image": "pro6.png",
+    "description": "Comfortable Sleeveless Dress",
+    "in_stock": true,
+    "type": "Best_Seller"
+  },
+  {
+    "id": 7,
+    "name": "Alpha Kick Scooter",
+    "category": "Baby",
+    "price": 70.00,
+    "currency": "USD",
+    "image": "pro7.png",
+    "description": "Comfortable and secure Alpha Kick Scooter",
+    "in_stock": true,
+    "type": "Best_Seller"
+  },
+  {
+    "id": 8,
+    "name": "Baby soft toys",
+    "category": "Toy & Books",
+    "price": 20.00,
+    "currency": "USD",
+    "image": "pro8.jpg",
+    "description": "Comfortable and soft Baby soft toys",
+    "in_stock": true,
+    "type": "Best_Seller"
+  },
+  {
+    "id": 9,
+    "name": "ABC Learning Cubes",
+    "category": "Toy & Books",
+    "price": 10.00,
+    "currency": "USD",
+    "image": "pro9.jpg",
+    "description": "Learning Cubes for mental growth",
+    "in_stock": true,
+    "type": "Product"
+  },
+  {
+    "id": 10,
+    "name": "Animal Friends Set",
+    "category": "Soft Toys",
+    "price": 20.00,
+    "currency": "USD",
+    "image": "pro10.jpg",
+    "description": "Soft Toys for play time",
+    "in_stock": true,
+    "type": "Product"
+  }
+]

@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+    <meta property="og:title" content="WowBaby" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="<?= $path['images']; ?>/thumb.png">
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--icon css -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Comfortaa:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <title>WowBaby</title>
+
+  </head>
+  <body>
+    
+    <!-- header start -->
+
+    <header class="headerWrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 col-6 align-content-center">
+            <div class="logo" data-aos="fade-right" data-aos-duration="400">
+              <a href="index.html">
+                <img src="images/logo.png" data-rjs="images/logo@2x.png" alt="logo">
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-5 col-6 col-lg-6 align-content-center">
+            <div class="searchBar" id="myDiv">
+              <input type="text" class="searchFld" placeholder="Search..." name="">
+            </div>
+          </div>
+          <div class="col-sm-4 col-lg-3 align-content-center text-end">
+            <div class="conInfo">
+              <i>
+                <img src="images/phone.png" alt="">
+              </i>
+              <div class="rightInfo">
+                <span class="Qhead">Have a Questions?</span>
+                <span class="callIn">
+                  Call?
+                  <a href="tel:0000000000">
+                    0000 000 000
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- header end -->
+
+    <!-- menubar start -->
+
+    <section class="subHead">
+      <div class="headBorder">
+        <div class="container">
+          <div class="barArea">
+            <a href="javascript:void(0);" class="menuClick"><i class="fa-solid fa-bars"></i></a>
+          </div>
+          <div class="overlayBody"></div>
+          <div class="row align-items-center">
+            <div class="col-5">
+              <ul>
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="shop.html">Shop</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);">Categories</a>
+                  <ul>
+                    <li><a href="shop.html">All Products</a></li>
+                    <li><a href="shop.html">Best Sellers</a></li>
+                    <li><a href="shop.html">Boy</a></li>
+                    <li><a href="shop.html">Girls</a></li>
+                    <li><a href="shop.html">Baby</a></li>
+                    <li><a href="shop.html">Soft Toys</a></li>
+                    <li><a href="shop.html">Equipments</a></li>
+                    <li><a href="shop.html">Toy & Books</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="about.html">About Us</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-2 offset-5">
+              <ul class="cartArea">
+                <li>
+                  <a href="wishlist.html">
+                    <i class="fa-regular fa-heart"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);">
+                    <span class="cartValue">01</span>
+                    <i class="fa-solid fa-cart-plus"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="login.html">
+                    <i class="fa-regular fa-user"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- menubar end -->
+
+    <!-- banner start -->
+
+    <section class="bannerWrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 col-12">
+            <h1 data-aos="fade-down" data-aos-duration="400">Explore the world of <span>Fashion <br> & Comfort</span></h1>
+            <p data-aos="fade-right">Explore our collection of new and popular baby clothes, designed with both style and comfort in mind.</p>
+            <div class="gloBalBtn" data-aos="fade-right" data-aos-duration="800">
+              <a href="shop.html">Shop Now </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- banner end -->
+
+    <!-- categories start -->
+
+    <section class="categories_wrap">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <h2>Shop By <span>Categories</span></h2>
+            <p>Explore our collection of new and popular baby clothes, designed with both style and comfort in mind.</p>
+          </div>
+        </div>
+        <div class="categories_inner">
+          <div class="row">
+            <div class="col-sm-2 col-6" data-aos="fade-down" data-aos-duration="400">
+               <a href="shop.html" class="catBox">
+                 <img src="images/cat1.png" data-rjs="images/cat1@2x.png" alt="">
+               </a>
+               <h4>
+                <a href="shop.html">Boys</a>
+               </h4>
+            </div>
+            <div class="col-sm-2 col-6" data-aos="fade-down" data-aos-duration="900">
+               <a href="shop.html" class="catBox">
+                 <img src="images/cat2.png" data-rjs="images/cat2@2x.png" alt="">
+               </a>
+               <h4>
+                <a href="shop.html">Girls</a>
+               </h4>
+            </div>
+            <div class="col-sm-2 col-6" data-aos="fade-down" data-aos-duration="1400">
+               <a href="shop.html" class="catBox">
+                 <img src="images/cat3.jpg" data-rjs="images/cat3@2x.jpg" alt="">
+               </a>
+               <h4>
+                <a href="shop.html">Baby</a>
+               </h4>
+            </div>
+            <div class="col-sm-2 col-6" data-aos="fade-down" data-aos-duration="1900">
+               <a href="shop.html" class="catBox">
+                 <img src="images/cat4.jpg" data-rjs="images/cat4@2x.jpg" alt="">
+               </a>
+               <h4>
+               <a href="shop.html">Soft Toys</a>
+             </h4>
+            </div>
+            <div class="col-sm-2 col-6" data-aos="fade-down" data-aos-duration="2400">
+               <a href="shop.html" class="catBox">
+                 <img src="images/cat5.jpg" data-rjs="images/cat5@2x.jpg" alt="">
+               </a>
+               <h4>
+                <a href="shop.html">Equipments</a>
+                </h4>
+            </div>
+            <div class="col-sm-2 col-6" data-aos="fade-down" data-aos-duration="2900">
+               <a href="shop.html" class="catBox">
+                 <img src="images/cat6.jpg" data-rjs="images/cat6@2x.jpg" alt="">
+               </a>
+               <h4>
+                <a href="shop.html">Toys & Books</a>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- categories end -->
+
+    <!-- new arrival start -->
+    <section class="newArrival">
+      <div class="container">
+        <h2 class="mb-3" data-aos="fade-right" data-aos-duration="400">Latest Baby <span>Arrivals</span></h2>
+        <div class="row" id="latest-arrivals"></div>
+      </div>
+    </section>
+    <!-- new arrival end -->
+
+    <!-- explore start -->
+
+    <section class="exploreArea">
+      <div class="container">
+        <div class="exploreInner">
+          <div class="row">
+            <div class="col-sm-6" data-aos="fade-right" data-aos-duration="800">
+              <div class="explrCell">
+                <div class="captionTop1">
+                  <h3>Best <span>Baby <br> Toys</span></h3>
+                  <div class="shopNow">
+                    <a href="shop.html">
+                      Shop Now 
+                    </a>
+                  </div>
+                </div>
+                <img src="images/exploreBg1.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-sm-6" data-aos="fade-left" data-aos-duration="800">
+              <div class="explrCell">
+                <div class="captionTop2">
+                  <h3>Explore the <br> world of <span>Fashion <br> & Comfort</span></h3>
+                  <p>Explore our collection of new and popular baby clothes, designed with both style and comfort in mind.</p>
+                  <div class="shopNow">
+                    <a href="shop.html">
+                      Shop Now 
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <img src="images/exploreBg2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- explore end -->
+
+    <!-- discount start -->
+
+    <section class="discountArea">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-sm-12 offset-md-7 text-center">
+            <div class="discountInner">
+              <h5>Deal of the week</h5>
+              <h4 data-aos="fade-up" data-aos-duration="800">Up to 25% off </h4>
+              <p>Combo Boutique offers free shipping on all <br> orders every day.</p>
+              <div class="shopNow" data-aos="fade-left" data-aos-duration="1000">
+                  <a href="shop.html">
+                    Shop Now 
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- discount end -->
+
+    <!-- best seller start -->
+
+    <section class="newArrival">
+      <div class="container">
+        <h2 class="mb-3" data-aos="fade-right" data-aos-duration="400">Best <span>Seller</span></h2>
+        <div class="row" id="best_seller"></div>
+      </div>
+    </section>
+
+    <!-- best seller end -->
+
+    <!-- special product start -->
+
+    <section class="specialPro">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <div class="row" style="height: 100%;" id="special_product"></div>
+          </div>
+          
+          <div class="col-lg-6 col-sm-12" data-aos="fade-left" data-aos-duration="700">
+            <div class="rightSec">
+              <div class="bestToy">
+                <span>Categories</span>
+                <h4>Best Baby Toys</h4>
+                <div class="shopNow">
+                  <a href="shop.html">
+                    Shop Now 
+                  </a>
+                </div>
+              </div>
+              <img src="images/mombabyBg.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- special product end -->
+
+    <!-- review start -->
+    <section class="reviewArea">
+      <div class="container">
+        <h4 class="text-center">Customer Reviews</h4>
+        <div class="reviewSlider">
+          <div class="row sliderInner">
+            <div class="col-sm-4">
+              <div class="sliderCell text-center">
+                 <div class="userPic">
+                   <img src="images/user1.png" alt="">
+                 </div>
+                 <h2>A Must-Have for New Parents!</h2>
+                 <p>“I absolutely love this product! 
+It’s been a game-changer for our daily routine with our newborn. The material is soft and gentle on my baby’s skin, and the design is both practical and adorable.”</p>
+                <h5>Sophia Martinez</h5>
+                <div class="starPic">
+                  <img src="images/review.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="sliderCell text-center">
+                 <div class="userPic">
+                   <img src="images/user2.png" alt="">
+                 </div>
+                 <h2>Perfect for Our Little One!</h2>
+                 <p>“We absolutely love WOWbabyt! It’s soft, safe, and incredibly well-made. Our baby took to it right away, and we’ve noticed how much more comfortable and relaxed they are during naps.”</p>
+                <h5>Lily Anderson</h5>
+                <div class="starPic">
+                  <img src="images/review.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="sliderCell text-center">
+                 <div class="userPic">
+                   <img src="images/user3.png" alt="">
+                 </div>
+                 <h2>Lifesaver for New Parents!</h2>
+                 <p>“I absolutely love this baby carrier! It’s super comfortable for both me and my 3-month-old. The straps are easy to adjust, and the breathable fabric keeps us both cool on walks.”</p>
+                <h5>Olivia Brown</h5>
+                <div class="starPic">
+                  <img src="images/review.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="sliderCell text-center">
+                 <div class="userPic">
+                   <img src="images/user1.png" alt="">
+                 </div>
+                 <h2>A Must-Have for New Parents!</h2>
+                 <p>“I absolutely love this product! 
+It’s been a game-changer for our daily routine with our newborn. The material is soft and gentle on my baby’s skin, and the design is both practical and adorable.”</p>
+                <h5>Sophia Martinez</h5>
+                <div class="starPic">
+                  <img src="images/review.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="sliderCell text-center">
+                 <div class="userPic">
+                   <img src="images/user2.png" alt="">
+                 </div>
+                 <h2>Perfect for Our Little One!</h2>
+                 <p>“We absolutely love WOWbabyt! It’s soft, safe, and incredibly well-made. Our baby took to it right away, and we’ve noticed how much more comfortable and relaxed they are during naps.”</p>
+                <h5>Lily Anderson</h5>
+                <div class="starPic">
+                  <img src="images/review.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="sliderCell text-center">
+                 <div class="userPic">
+                   <img src="images/user3.png" alt="">
+                 </div>
+                 <h2>Lifesaver for New Parents!</h2>
+                 <p>“I absolutely love this baby carrier! It’s super comfortable for both me and my 3-month-old. The straps are easy to adjust, and the breathable fabric keeps us both cool on walks.”</p>
+                <h5>Olivia Brown</h5>
+                <div class="starPic">
+                  <img src="images/review.png" alt="">
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- review end -->
+
+    <!-- partner logo start -->
+
+    <section class="partnerArea">
+      <div class="container">
+        <h5 class="text-center">As Seen On</h5>
+        <ul class="text-center">
+          <li>
+            <img src="images/logoAs.png" alt="">
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- partner logo end -->
+
+    <!-- footer start -->
+
+    <section class="footerWrap">
+      <div class="footerTop">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 col-md-5 col-sm-12">
+              <h2>Sign Up To Our Newsletter</h2>
+              <p>Sign up for our latest case studies </p>
+            </div>
+            <div class="col-lg-5 col-md-7 col-sm-12 text-end">
+              <div class="newsSearch">
+                <input type="text" class="newsFld" placeholder="Enter Your Email" name="">
+                <input type="submit" class="subsBtn" value="Subscribe" name="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footerMidd">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="footLogo">
+                  <a href="index.html">
+                    <img src="images/footerLogo.png" data-rjs="images/footerLogo@2x.png" alt="">
+                  </a>
+                </div>
+                <p>Copyright 2025 wowBaby. All Rights Reserved.</p>
+              </div>
+              <div class="col-lg-3 offset-lg-1 col-sm-4">
+                <h5>CONTACT INFO</h5>
+                <ul class="addressD">
+                  <li class="d-flex">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>13th Street 47 W 13th St, <br> New York, NY 10011, USA.</span>
+                  </li>
+                  <li class="d-flex">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="javascript:void(0);">info@wowBaby.com</a>
+                  </li>
+                  <li class="d-flex">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <a href="javascript:void(0);">+1 000) 000-0000</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 offset-lg-1 col-sm-4 text-end">
+                <div class="payCard">
+                  <img src="images/card.png" alt="">
+                </div>
+                <div class="socialArea">
+                  <ul class="d-flex justify-content-between align-content-center">
+                    <li data-aos="fade-left" data-aos-duration="200">
+                      <a href="javascript:void(0)">
+                        <i class="fa-brands fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li data-aos="fade-left" data-aos-duration="400">
+                      <a href="javascript:void(0)">
+                        <i><img src="images/mdi_twitter.png" alt=""></i>
+                      </a>
+                    </li>
+                    <li data-aos="fade-left" data-aos-duration="600">
+                      <a href="javascript:void(0)">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                      </a>
+                    </li>
+                    <li data-aos="fade-left" data-aos-duration="800">
+                      <a href="javascript:void(0)">
+                        <i class="fa-brands fa-youtube"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="footerBottom">
+        <ul class="text-center">
+          <li>
+            <a href="javascript:void(0);">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="javascript:void(0);">Terms & Conditions</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- footer end -->
+
+
+
+
+
+
+
+    <!-- js -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/retina.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>

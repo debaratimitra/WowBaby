@@ -1,0 +1,560 @@
+
+@media(max-width: 1199px){
+	.discountInner h4{
+		font-size: 40px;
+	}
+	.cellLeft h5{
+		font-size: 15px;
+	}
+	.rightSec{
+		height: 100%;
+	}
+	.rightSec img{
+		height: 100%;
+	}
+	.proCell{
+		height: 100%;
+	}
+	.newsSearch{
+		width: 100%;
+	}
+	.subsBtn{
+		padding: 15px;
+	}
+	.newsFld {
+        max-width: 65%;
+    }
+	.exploreInner{
+		margin: 0;
+	}
+	.sliderCell h2{
+		font-size: 15px;
+	}
+	.captionTop2{
+		top: 25px;
+	}
+	.captionTop1{
+		top: 40px;
+	}
+	.bannerWrap {
+    	padding: 4rem 0;
+	}
+	.bottomContact{
+		padding-bottom: 50px;
+	}
+	.aboutImg{
+		top: -55px;
+	}
+	.contactBanner{
+    background-position: right top !important;
+  }
+  .shopImg{
+  	top:0px;
+  	max-width: 420px;
+  }
+  .shopArea .col-sm-4{
+  	margin-bottom: 30px;
+  }
+  .asideInner{
+  	padding: 30px 5px 100px;
+  }
+  .filterInner ul li a{
+  	width: 18px;
+  	height: 18px;
+  }
+  .tableCell{
+		padding: 0 15px 15px;
+	}
+	.riskFree span img {
+  	width: 35px;
+  }
+  .riskFree{
+  	padding:15px;
+  }
+  .riskFree h5{
+	  font-size: 14px;
+	}
+	.slideMain{
+		max-width: 340px;
+	}
+	.onlBtn .gloBalBtn a{
+		font-size: 14px;
+		padding: 10px 20px;
+	}
+}
+@media(max-width: 991px){
+  .barArea{
+  	display: block;
+  }
+  .headBorder .col-5 > ul{
+  	position: fixed;
+  	left:-350px;
+  	opacity: 0;
+  	visibility: hidden;
+  	top: 0;
+  	bottom: 0;
+  	width: 250px;
+  	background:#B7D4C5;
+  	padding:25px;
+  	transition: 300ms ease-in-out;
+  	-webkit-transition: 300ms ease-in-out;
+  	-moz-transition: 300ms ease-in-out;
+  }
+  .headBorder{
+  	height: 40px;
+  }
+  .headBorder{
+  	padding: 10px 0;
+  }
+  .headBorder .col-5 > ul{
+  	display: block;
+  	z-index: 999;
+  }
+  .headBorder ul li ul{
+    position: static;
+    left: inherit;
+    opacity: 1;
+    height: auto;
+    box-shadow: none;
+  }
+  .headBorder ul li ul li a{
+  	font-size: 13px;
+  }
+  .showM .overlayBody{
+  	opacity: 1;
+  	visibility:visible;
+  }
+  .showM .headBorder .col-5 > ul{
+  	left: 0;
+  	opacity: 1;
+  	visibility: visible;
+  }
+  .showM{
+  	overflow: hidden;
+  }
+  .searchBar{
+  	margin: 0px 5px;
+  }
+  .conInfo i {
+    width: 2rem;
+    height: 2rem;
+    line-height: 1.8rem;
+  }
+  .bannerWrap h1 {
+    font-size: 2rem;
+  }
+  .categories_inner h4 a{
+  	font-size: 13px;
+  }
+  h2{
+  	font-size: 25px;
+  }
+  .proCell{
+  	margin-bottom: 15px;
+  	height: auto;
+  }
+  .captionTop1 h3 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .captionTop1{
+  	right:18px;
+  }
+  .captionTop2 h3 {
+    font-size: 22px;
+    line-height:25px;
+  }
+  .captionTop2 {
+    top: 3px;
+    right: 5px;
+  }
+  .discountInner h4 {
+     font-size: 30px;
+   }
+   .rightSec img{
+   	 width: 100%;
+   	 height: auto;
+   }
+   .rightSec{
+   	 height: auto;
+   }
+   .socialArea{
+   	  max-width: 100%;
+   	  float: none;
+   }
+   .socialArea ul li{
+   	 margin-left: 0;
+   }
+   .newsFld {
+        max-width: 67%;
+    }
+    .aboutImg{
+    	background-size: 100%;
+    	width: 370px;
+      height: 230px;
+      top: 50%;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+    }
+    .contactBanner {
+    	height: 265px;
+  	}
+  	.frmCell{
+  		padding: 35px 25px;
+  	}
+  	.thankWrap {
+    	padding: 100px 0;
+		}
+		.thankWrap p{
+			font-size: 16px;
+			line-height: 24px;
+		}
+		.tableCell{
+			padding: 0 15px 15px;
+		}
+		.riskFree{
+			padding: 15px;
+		}
+	  .riskFree p {
+	    font-size: 12px;
+	    margin-top: 10px;
+	}
+	.slideThumb {
+    width: 50px;
+	}
+	.slideMain{
+		margin-left: 15px;
+	}
+	.slideMain {
+    max-width: 270px;
+  }
+  .onlBtn{
+  	width: 100%;
+    display: flex;
+    margin-top: 25px;
+  }
+  .gloBalBtn a {
+    padding: 10px 15px;
+	}
+	.onlBtn .gloBalBtn {
+		margin-right: 10px;
+	}
+	.bottomPro{
+		display: block;
+	}
+	.productDescrip h2 {
+    font-size: 18px;
+    line-height: 25px;
+	}
+	.proPrice{
+		margin: 10px 0 20px;
+	}
+	.productDescrip p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .onlBtn .gloBalBtn{
+    margin-left: 0px;
+}
+
+}
+
+@media(max-width: 767px){
+	.conInfo i{
+		display: none;
+	}
+	.newsFld {
+        max-width:59%;
+    }
+    .newsSearch{
+    	margin-top: 15px;
+    }
+    .footerMidd p{
+    	font-size: 20px;
+    }
+    .addressD li,
+    .footerMidd p{
+    	font-size: 14px;
+    }
+    .socialArea ul li a{
+    	font-size:15px;
+    	height: 35px;
+    	width: 35px;
+    	line-height:33px;
+    }
+    .socialArea ul li a img{
+    	width: 18px;
+    }
+    .footerTop .col-lg-5.col-md-7.col-sm-12.text-end{
+    	text-align: left !important;
+    }
+    .newsSearch{
+    	text-align: right;
+    }
+    .newsSearch{
+			max-width: 320px;
+		}
+		.captionTop2 h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .captionTop1 {
+        top: 20px;
+    }
+    .captionTop2 p{
+    	margin: 5px 0;
+    	line-height: 14px;
+    }
+    .captionTop2{
+    	left: 10px;
+    }
+    .shopNow a {
+    	padding: 10px 22px;
+  	}
+  	.discountArea{
+  		padding: 35px 0;
+  		min-height: auto;
+  	}
+  	.discountInner{
+  		padding: 25px;
+  		margin: 0px auto;
+  		background: rgba(0, 0, 0, 0.4);
+  	}
+  	.aboutImg,
+  	.shopImg{
+  		display: none;
+  	}
+  	.aboutCell.pd-R{
+  		margin-bottom: 25px;
+  	}
+  	.col-lg-3.col-md-5.col-sm-3.offset-lg-2{
+  		display: none;
+  	}
+  	.contactRight{
+  		display: none;
+  	}
+  	.shopBanner{
+  		height:auto;
+  	}
+  	.loginFrmBg{
+  		display: none;
+  	}
+  	.loginWrp {
+	    padding: 50px 0;
+	  }
+	  .frmLeft .socialArea{
+	  	max-width: 190px;
+	  	margin:80px auto 0;
+	  }
+	  .aplyCoupon .fldBox{
+	  	max-width: 425px;
+	  }
+	  .cartInner{
+	  	margin-top:50px;
+	  }
+	  .leftAside{
+	  	position: fixed;
+	    left: -250px;
+	    top: 0;
+	    opacity: 0;
+	  }
+	  .showBar .leftAside{
+	    top: 0;
+	    left: 0;
+	    opacity: 1;
+	    border-radius: 0px;
+	    z-index: 999;
+	    bottom: 0;
+		}
+		.showBar .overlayBody{
+			opacity: 1;
+      visibility: visible;
+		}
+		.asideInner {
+        padding: 30px 15px 100px;
+    }
+    .slideMain {
+        max-width: 450px;
+    }
+    .productDescrip{
+    	margin-top: 30px;
+    }
+}
+
+@media(max-width: 640px){
+	.categories_inner h4 a{
+		line-height: 22px;
+	}
+	.reviewArea h4{
+		font-size: 24px;
+	}
+	.topStyle {
+    left: -36px;
+    top: -55px;
+    max-width: 90px;
+	}
+
+}
+
+@media(max-width: 575px){
+	.conInfo{
+		display: none;
+	}
+	.footerTop {
+    	padding: 25px 0;
+	}
+	.footerMidd {
+    	padding: 25px 0;
+	}
+	.footerMidd p{
+		margin: 20px 0;
+	}
+	.footerMidd .col-lg-3.offset-lg-1.col-sm-4.text-end{
+		text-align: left !important;
+	}
+	.payCard {
+    	margin: 20px 0;
+	}
+	.socialArea{
+		max-width: 240px;
+	}
+	.bannerWrap{
+		background-image: none;
+		background-color: #ede8e3;
+		padding: 30px 0;
+	}
+	.categories_inner h4 a{
+		margin-top: 5px;
+		margin-bottom: 15px;
+	}
+	.exploreArea {
+    margin: 15px 0 30px;
+    overflow: hidden;
+	}
+	.captionTop2{
+		top: 42px;
+	}
+	.explrCell{
+		margin-top: 15px;
+	}
+	.aboutCell.pd-L{
+		margin-bottom:25px;
+	}
+	.aboutInner .col-sm-6.col-md-8{
+		order: 2;
+	}
+	.aboutInner .col-sm-6.col-md-4{
+		order: 1;
+	}
+	.bottomContact p{
+		line-height: 28px;
+		font-size: 14px;
+	}
+	.thankWrap {
+     padding: 50px 0;
+   }
+   .frmLeft h4{
+   	font-size: 26px;
+   }
+   .cartCell{
+   	padding: 20px 0;
+   }
+   .sumTitle{
+   	padding: 8px 15px;
+   }
+   .totalDiv .tableCell{
+   	padding-top: 8px;
+   }
+   .tableCell{
+   	padding-bottom: 8px;
+   }
+   .accordionCell .heading{
+   	padding: 8px 15px;
+   	height: auto;
+   	font-size: 17px;
+   }
+   .slideMain {
+      max-width: 390px;
+   }
+   .proPrice {
+    font-size: 23px;
+  }
+  .proImg{
+	height: auto;
+	line-height: auto;
+  }
+}
+
+@media(max-width: 480px){
+	.footerTop h2 {
+    	font-size: 22px;
+	}
+	.footerTop p{
+		font-size: 13px;
+	}
+	.newsSearch{
+		padding-left: 5px;
+	}
+	.newsFld {
+        max-width: 57%;
+  }
+  .slick-prev{
+  	left: 12px;
+  }
+  .slick-next{
+  	right: 12px;
+  }
+  .bestToy {
+    position: absolute;
+    left: 25px;
+    top: 35px;
+  }
+  .topStyle{
+  	display: none;
+  }
+  .frmCell h4{
+  	font-size: 30px;
+  }
+  .mapArea {
+    margin: 30px 0;
+	}
+	.proImgOut {
+    max-width: 50px;
+  }
+  .cartCell h5{
+  	font-size: 12px;
+  }
+  orderId{
+  	font-size: 10px;
+  }
+  .quantity{
+  	max-width: 90px;
+  }
+  .cartHead .cartCell{
+  	font-size: 13px;
+  }
+  .slideMain {
+    max-width: 294px;
+  }
+  .sizeList li a {
+    padding: 4px;
+  }
+  .onlBtn .gloBalBtn a{
+  	font-size: 12px;
+  }
+}
+@media(max-width:380px){
+	.slideMain {
+      max-width: 230px;
+  }
+}
+
+@media(min-width: 1200px){
+	.pd-R{
+		padding-right: 30px;
+	}
+	.pd-L{
+		padding-left: 40px;
+	}
+}
