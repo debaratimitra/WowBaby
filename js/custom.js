@@ -533,18 +533,22 @@ function addToWish(product, qty) {
   
  /////for cart count
 
- function updateCartCount() {
+function updateCartCount() {
   const cart = JSON.parse(localStorage.getItem('cart')) || [];
   const totalQuantity = cart.reduce((sum, item) => sum + item.quantity, 0);
 
   const cartValueEl = document.querySelector('.cartValue');
   if (cartValueEl) {
-    cartValueEl.textContent = totalQuantity.toString().padStart(2, '0'); // e.g., "01", "02"
+    cartValueEl.textContent = totalQuantity === 0
+      ? '0'
+      : totalQuantity.toString().padStart(2, '0'); // e.g., "01", "02"
   }
 }
+
 document.addEventListener("DOMContentLoaded", function () {
   updateCartCount();
 });
+
 
 
 ////for seacrh
