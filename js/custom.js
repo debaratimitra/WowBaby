@@ -541,7 +541,7 @@ function updateCartCount() {
   if (cartValueEl) {
     cartValueEl.textContent = totalQuantity === 0
       ? '0'
-      : totalQuantity.toString().padStart(2, '0'); // e.g., "01", "02"
+      : totalQuantity.toString().padStart('0'); // e.g., "01", "02"
   }
 }
 
